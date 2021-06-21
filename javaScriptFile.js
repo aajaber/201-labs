@@ -1,21 +1,25 @@
-let first_Question =prompt('Welcome to 201 first Lab,Are you ready ?');
-console.log(first_Question);
+let ready =prompt('Welcome to 201 first Lab,Are you ready ?');
+alert('Great!');
+console.log(ready);
 
-let second_Question =prompt('What\'s your name ?');
-console.log(first_Question);
+let userName =prompt('What\'s your name ?');
+alert('Welcome '+userName);
+console.log(userName);
 
-let third_Question =prompt('what\'s your favorite car?');
-console.log(first_Question);
-
-let fourth_Question =prompt('why\'s that?');
-console.log(first_Question);
-
-
-
-
-let favCar;
-favCar="Alfa Romeo";
+let favCar =prompt('What\'s your favorite car ?');
+alert('Oh nice a '+ favCar + ' you have a good taste!');
 console.log(favCar);
+
+let whyDoyouLikeThatCar =prompt('why\'s that?');
+alert('oh i see , these are some great Specs ');
+console.log(whyDoyouLikeThatCar);
+
+
+
+
+let car;
+car="Alfa Romeo";
+console.log(favCar);yes
 
 
 const link="https://www.google.com/";
